@@ -1,14 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import { NavBar } from './components/NavBar';
-import NavBar2 from './components/NavBar2.js'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
+import Home from './pages/HomePage';
+import Services from './pages/ServicesPage';
+import Appointment from './pages/AppointmentPage';
+import About from './pages/AboutPage';
+import Contact from './pages/ContactPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <NavBar2 />
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} exact />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/appointment" element={<Appointment />} />
+        {/* If you have a 404 page, you can use "*" to match any other path */}
+        {/* <Route path="*" element={<NoMatch />} /> */}
+      </Routes>
+      <Footer />
+    </Router>
   );
-}
+};
 
 export default App;
