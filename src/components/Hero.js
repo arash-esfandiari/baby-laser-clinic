@@ -16,6 +16,7 @@ const Hero = () => {
                     {/* <h1 className="display-4 fw-bold mb-3">BOOK FIVE SESSIONS, THE SIXTH IS ON US</h1> */}
                     <h1 className="display-4 fw-bold mb-3">Happy Birhday Baby🎉🥳🥳🎉🎉🎉🎉🎉🥳🥳🎉🎉🎂😘🎊 </h1>
                     <h1 className="display-4 fw-bold mb-3">I wish you the best and all the success in the world kiddo.  </h1>
+                    <h1 className="display-4 fw-bold mb-3">Dooset daram ❤️</h1>
                     <Link to="/appointment" className="btn btn-dark btn-lg">BOOS NOW?</Link>
                 </div>
             </div>
