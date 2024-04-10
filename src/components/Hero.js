@@ -13,8 +13,10 @@ const Hero = () => {
                     </h2>
 
                     {/* Promotional Message */}
-                    <h1 className="display-4 fw-bold mb-3">BOOK FIVE SESSIONS, THE SIXTH IS ON US</h1>
-                    <Link to="/appointment" className="btn btn-dark btn-lg">BOOK NOW</Link>
+                    {/* <h1 className="display-4 fw-bold mb-3">BOOK FIVE SESSIONS, THE SIXTH IS ON US</h1> */}
+                    <h1 className="display-4 fw-bold mb-3">Happy Birhday Baby🎉🥳🥳🎉🎉🎉🎉🎉🥳🥳🎉🎉🎂😘🎊 </h1>
+                    <h1 className="display-4 fw-bold mb-3">I wish you the best and all the success in the world kiddo.  </h1>
+                    <Link to="/appointment" className="btn btn-dark btn-lg">BOOS NOW?</Link>
                 </div>
             </div>
         </div>
