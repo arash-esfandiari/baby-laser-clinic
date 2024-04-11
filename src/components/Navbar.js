@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     {/* Book Appointment Button visible on sm screens and up */}
                     <Link to="/appointment" className="btn btn-outline-dark text-nowrap d-none d-md-block me-2">
-                        Book Appointment
+                        Book an Appointment
                     </Link>
 
                     {/* Navbar Links */}
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Link className="nav-link" to="/about">About</Link>
                         <Link className="nav-link" to="/contact">Contact</Link>
                         {/* Book Appointment Button inside the collapsible menu only visible on xs to md screens */}
-                        <Link to="/appointment" className="nav-link d-block d-md-none">Book Appointment</Link>
+                        <Link to="/appointment" className="nav-link d-block d-md-none">Book an Appointment</Link>
                     </div>
                 </div>
             </div>
