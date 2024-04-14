@@ -17,7 +17,7 @@ const Navbar = () => {
 
                     {/* Title */}
                     <Link to="/" className="navbar-brand fw-bold fs-3 d-none d-lg-block">
-                        Baby's Laser Clinic
+                        Marla Laser Clinic
                     </Link>
                 </div>
 

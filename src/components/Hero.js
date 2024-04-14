@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="col-12 col-md-8 offset-md-2">
                     {/* Website Title */}
                     <h2 className="display-6 fw-bold text-dark mb-4 pb-2 border-bottom border-3 border-primary">
-                        Baby's Laser Clinic
+                        Marla Laser Clinic
                     </h2>
 
                     {/* Promotional Message */}

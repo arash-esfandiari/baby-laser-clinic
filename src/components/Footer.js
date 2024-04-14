@@ -27,7 +27,7 @@ const Footer = () => {
                 </Row>
                 <Row className="justify-content-center text-center">
                     <Col>
-                        <p className="text-muted">&copy; {new Date().getFullYear()} Baby's Laser Clinic. All rights reserved.</p>
+                        <p className="text-muted">&copy; {new Date().getFullYear()} Marla Laser Clinic. All rights reserved.</p>
                     </Col>
                 </Row>
             </Container>
