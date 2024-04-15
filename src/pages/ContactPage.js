@@ -12,7 +12,7 @@ const ContactPage = () => {
                     <h1 className="text-center mb-4">Contact Us</h1>
                     <ListGroup variant="flush">
                         <ListGroupItem>
-                            <FaPhone /> Phone: +123 456 7890
+                            <FaPhone /> Phone: +647 471 8356
                         </ListGroupItem>
                         <ListGroupItem>
                             <FaInstagram /> Instagram: <a href="https://instagram.com/yourclinic" target="_blank" rel="noopener noreferrer">@yourclinic</a>
